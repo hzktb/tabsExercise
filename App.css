@@ -1,0 +1,34 @@
+.wrapper {
+  margin: 50px auto;
+  width: 970px;
+  text-align: center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.tab {
+  display: inline-block;
+  margin: 20px 5px;
+  padding: 10px;
+  width: 100px;
+  border: 1px solid #ccc4c4;
+  cursor: pointer;
+}
+
+.selected {
+  color: #fff;
+  background-color: black;
+  animation: rotate 1s ease-in-out;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+}
